@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">블루투스챗</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">보내기</string>
+    <string name="not_connected">디바이스에 연결되지 않았습니다.</string>
+    <string name="bt_not_enabled_leaving">블루투스 켜기에 실패하였습니다. 앱을 종료합니다.</string>
+    <string name="title_connecting">연결중...</string>
+    <string name="title_connected_to">연결: </string>
+    <string name="title_not_connected">연결안됨</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">디바이스 검색 중...</string>
+    <string name="select_device">연결할 디바이스를 선택하세요</string>
+    <string name="none_paired">페어링된 디바이스가 없슴.</string>
+    <string name="none_found">디바이스가 발견되지 않았습니다.</string>
+    <string name="title_paired_devices">페어링된 디바이스</string>
+    <string name="title_other_devices">이용가능한 디바이스</string>
+    <string name="button_scan">디바이스 검색</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">디바이스연결(Secure)</string>
+    <string name="insecure_connect">디바이스연결(Insecure)</string>
+    <string name="discoverable">디바이스검색 허용</string>
+</resources>
